@@ -15,6 +15,8 @@ public class IbmmqApplicationTests {
 
 	@Autowired
 	private JmsTemplate jmsTemplate;
+	@Autowired
+	private  Receiver receiver;
 
 	@Test
 	public void testReceive() throws Exception {
